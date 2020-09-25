@@ -2,19 +2,20 @@ Proceso sin_titulo
 	
 	//Crea un programa que pida al usuario dos números y muestre su división si el segundo no es cero, o un mensaje de aviso en caso contrario.
 	
-	Definir n1 Como Entero
-	Definir n2 Como Entero
+	Definir dividendo Como Real
+	Definir divisor Como Real
 	
-	Escribir "Esribe un número"
-	Leer n1
-	Escribir "Esribe un número"
-	Leer n2
+	Escribir "Esribe el dividendo"
+	Leer dividendo
+	Escribir "Esribe el divisor"
+	Leer divisor
 	
-	Si (n1 > 0) Y (n2 > 0) Entonces
-		Escribir n1/n2
+	Si divisor = 0 Entonces
+		Escribir "No se puede dividir por 0"
 	SiNo
-		Escribir "No es posible dividir un número 0, inténtelo de nuevo"
+		escribir "El resultado de la división es " dividendo/divisor
 	FinSi
+	
 	
 	
 	
