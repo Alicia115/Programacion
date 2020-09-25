@@ -25,17 +25,6 @@ Proceso sin_titulo
 		Escribir "El número mayor es " n3
 	FinSi
 	
-	Si (n1 = n2) Y (n1 = n3) Entonces
-		Escribir "El número mayor es " n1
-	FinSi
-	
-	Si (n2 = n1) Y (n2 = n3) Entonces
-		Escribir "El número mayor es " n2
-	FinSi
-	
-	Si (n3 = n2) Y (n3 = n1) Entonces
-		Escribir "El número mayor es " n3
-	FinSi
 	
 	
 FinProceso
