@@ -25,6 +25,8 @@ Proceso sin_titulo
 		Escribir "El número mayor es " n3
 	FinSi
 	
-	
+	Si (n3 = n2) Y (n3 = n1) Entonces
+		Escribir "Todos son el mismo número"
+	FinSi
 	
 FinProceso
