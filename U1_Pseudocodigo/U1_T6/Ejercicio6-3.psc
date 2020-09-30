@@ -8,22 +8,16 @@ Algoritmo Repetir03
 	Definir n1 Como Real
 	Definir n2 Como Real
 	
+	Escribir "Introduzca un número"
+	Leer n1
+	
 	Repetir
-		Escribir "Introduzca un número"
-		Leer n1
 		Escribir "Introduzca otro número"
 		Leer n2
-		si (n1<>0) Entonces
-			Escribir "La suma es de " n1 + n2
-		SiNo
-			si n2<>0 Entonces
-				
-				Escribir "La suma es de " n1 + n2
-			FinSi
-			
-			
+		si (n2=0) Entonces
+			Escribir "El divisor no puede ser 0"
 		FinSi
-	Hasta Que (n1 = 0) y (n2 = 0)
-	Escribir "Fin del proceso"
+	Hasta Que n2<>0
+	Escribir "La división es ", n1/n2
 	
 FinAlgoritmo

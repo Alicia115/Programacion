@@ -10,16 +10,9 @@ Algoritmo Repetir01
 	Repetir
 		Escribir "Introduzca su código"
 		Leer n1
-		Si n1 <> 1 Entonces
-			Escribir "Código incorrecto"
-		SiNo
-			Escribir "Introduzca su contraseña"
-			Leer n2
-			Si n2 <> 1234 Entonces
-				Escribir "Contraseña incorrecta"
-			FinSi
-		FinSi
-		hasta que n1=1 Y n2=1234
+		Escribir "Introduzca contraseña"
+		leer n2
+		hasta que n1=1 o n2=1234
 		Escribir "Bienvenido"
 	
 FinAlgoritmo

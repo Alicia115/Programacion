@@ -8,6 +8,8 @@ Algoritmo Mientras03
 	Definir n1 Como entero
 	Definir n2 Como Entero
 	Definir resultado Como entero
+	Definir intentos Como Entero
+	
 	
 	n1 = azar(101)
 	n2 = azar(101)
@@ -17,15 +19,23 @@ Algoritmo Mientras03
 	Escribir "Introduce la suma " 
 	Leer resultado
 	
-	Mientras resultado <> n1+n2 Hacer
+	intentos = 1
+	
+	Mientras resultado <> n1+n2 Y intentos <5 Hacer
 		Escribir "Intentalo de nuevo"
 		Escribir "Introduce la suma"
 		Leer resultado
+		intentos = intentos+1
 	FinMientras
 	
-	Escribir "Correcto!"
-	
+	si resultado = n1+n2 entonces
+		Escribir "Correcto! has acertado en ", intentos, " intento"
+	sino 
+		Escribir "has consumido todos los intentos:", intentos
+		
+	FinSi
 	
 	
 FinAlgoritmo
 
+	

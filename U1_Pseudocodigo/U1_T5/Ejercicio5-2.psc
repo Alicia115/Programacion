@@ -12,7 +12,7 @@ Algoritmo Mientras02
 	Escribir "Escribe otro número"
 	Leer n2
 	
-	Mientras (n1 <> 0) Y (n2 <> 0) Hacer
+	Mientras (n1 <> 0) O (n2 <> 0) Hacer
 		
 		Escribir "La suma es de " n1 + n2
 		Escribir "Introduce de nuevo un número"

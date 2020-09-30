@@ -6,18 +6,15 @@ Proceso sin_titulo
 	
 	
 	Definir minutos Como Real
+	Definir truncado Como Real
+	Definir horas Como Real
 	
-	
-	
-	Escribir "Introduce un número elevado de minutos"
-	Leer minutos
-	
-	si minutos >= 60 Entonces
-		Escribir minutos " minutos son " minutos/60 " horas"
-		
-	FinSi
-	
-	
+	Escribir "Intruduzca los minutos y sacaremos cuantas horas y minutos son"
+	leer truncado
+	truncado = truncado/60
+	horas = trunc(truncado)
+	minutos = (truncado - horas)*60
+	Escribir truncado*60 " minutos son: " horas " horas y " minutos " minutos"
 	
 	
 	

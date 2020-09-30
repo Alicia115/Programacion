@@ -14,7 +14,7 @@ Algoritmo Repetir02
 		Escribir "Introduzca otro número"
 		Leer n2
 		
-		si (n1<>0) y (n2<>0) Entonces
+		si (n1<>0) o (n2<>0) Entonces
 			Escribir "La suma es de " n1 + n2
 		
 		FinSi

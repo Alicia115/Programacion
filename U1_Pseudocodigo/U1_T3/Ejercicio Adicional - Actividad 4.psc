@@ -1,4 +1,4 @@
-Proceso sin_titulo
+Algoritmo actividad4
 	
 	Definir horas Como Real
 	
@@ -6,13 +6,15 @@ Proceso sin_titulo
 	Leer horas
 	
 	si (horas <= 40) Entonces
-		Escribir "El sueldo semanal por " horas " trabajadas es de " horas*10
+		Escribir "El sueldo semanal por ", horas, " trabajadas es de ", horas*10
 		
 	sino
 		si (horas >= 41) Entonces
-			Escribir "El sueldo semanal por " horas " tabajadas es de " horas*15
+		
+			Escribir "El sueldo semanal por " horas " tabajadas es de " 400 + ((horas-40)*15)
 		FinSi
 	FinSi
 	
 	
-FinProceso
+FinAlgoritmo
+
