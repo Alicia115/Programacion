@@ -7,15 +7,15 @@ Algoritmo Ejercicio10
 	Definir fila Como Real
 	Definir columna Como Real
 	
-	Escribir Sin Saltar"Introduce el lado del rectángulo"
+	Escribir Sin Saltar"Introduce el lado del cuadrado"
 	Leer n
 	
 	para fila <- 1 Hasta n Hacer
 		
 		Para columna <- 1 Hasta n Hacer
-			Escribir Sin Saltar "*" ;
+			Escribir Sin Saltar " * " 
 		FinPara
-		Escribir " ";
+		Escribir " "
 	FinPara
 	
 	

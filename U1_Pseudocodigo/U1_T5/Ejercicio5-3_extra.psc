@@ -11,10 +11,10 @@ Algoritmo Mientras03
 	Definir intentos Como Entero
 	
 	
-	n1 = azar(101)
-	n2 = azar(101)
+	n1 <- azar(101)
+	n2 <- azar(101)
 	
-	Escribir "Suma es ", n1+n2
+	Escribir n1 " + " n2
 	
 	Escribir "Introduce la suma " 
 	Leer resultado

@@ -11,7 +11,7 @@ Algoritmo Ejercicio10
     Mientras n <= 15 Hacer
 		
         Escribir  n ;
-		n <- n + 1;
+		n = n + 1;
     Fin mientras
 	
 FinAlgoritmo
