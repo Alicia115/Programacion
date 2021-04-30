@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libros>
+    <libro id="1">
+        <titulo>Qujiote</titulo>
+        <editorial>
+            <nombre>Riachuelo </nombre>
+        </editorial>
+        <paginas>524</paginas>
+    </libro>
+    <libro id="2">
+        <titulo>Platero y yo</titulo>
+        <editorial> Laguna </editorial>
+        <paginas>106</paginas>
+    </libro>
+    <libro id="3">
+        <titulo>Saber vivir</titulo>
+        <editorial> Rio </editorial>
+        <paginas>312</paginas>
+    </libro>
+    <libro id="4">
+        <titulo>La vida a través de sus ojos</titulo>
+        <editorial> Manantial </editorial>
+        <paginas>445</paginas>
+    </libro>
+    <libro id="5">
+        <titulo>Si me dices ven lo dejo todo</titulo>
+        <editorial> Cascada </editorial>
+        <paginas>289</paginas>
+    </libro>
+</libros>
